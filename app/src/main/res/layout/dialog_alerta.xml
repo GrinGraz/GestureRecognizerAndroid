@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Así somos"
+        android:id="@+id/titulo_tema"
+        android:padding="@dimen/margen_chico"
+        android:background="@color/azul"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/tamanio_titulo"/>
+
+    <TextView
+        android:text="Muchas gracias por tu respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/mensaje"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/titulo_tema"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/gris_fondo_dialog"
+        android:layout_below="@+id/mensaje"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        android:layout_width="91dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="@dimen/margen_enano"
+        android:text="Cancelar"
+        android:id="@+id/dialog_cancelar"
+        style="@style/boton_dialog"
+        android:textColor="@color/blanco"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+        <Button
+            android:layout_width="91dp"
+            android:layout_height="40dp"
+            android:text="Aceptar"
+            android:textColor="@color/blanco"
+            android:id="@+id/dialog_aceptar"
+            style="@style/boton_dialog"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

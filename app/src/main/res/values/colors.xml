@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="verde">#09a94f</color>
+    <color name="rojo">#f04033</color>
+    <color name="azul">#007bc1</color>
+    <color name="azul_presionado">#00A2FE</color>
+    <color name="amarillo">#ffe700</color>
+    <color name="blanco">#ffffff</color>
+    <color name="gris">#f2f2f2</color>
+    <color name="gris_oscuro">#adadad</color>
+    <color name="gris_fondo_dialog">#d4d4d4</color>
+    <color name="gris_btn_dialog">#919597</color>
+    <color name="gris_btn_dialog_presionado">#B0B3B5</color>
+    <color name="negro">#000000</color>
+</resources>
